@@ -1,0 +1,113 @@
+/* Reset básico para margens e preenchimentos, e inclui bordas e preenchimentos na largura e altura dos elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 1rem; /* Preenchimento interno do cabeçalho */
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: space-between; /* Espaça o conteúdo do cabeçalho */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+/* Estilo para o logotipo */
+.logo {
+    font-size: 1.5rem; /* Tamanho da fonte para o logotipo */
+    font-weight: bold; /* Fonte em negrito para o logotipo */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+    margin-right: 1rem; /* Margem à direita dos itens */
+}
+
+/* Estilo para os links na navegação */
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para a seção hero */
+#hero {
+    background: url('imagens/teste-gigante.JPEG') no-repeat center center/cover; /* Imagem de fundo da seção hero */
+    color: white; /* Cor do texto na seção hero */
+    text-align: center; /* Centraliza o texto */
+    padding: 3rem 1rem; /* Preenchimento interno da seção hero */
+}
+
+/* Estilo para o título na seção hero */
+#hero h1 {
+    font-size: 3rem; /* Tamanho da fonte do título */
+}
+
+/* Estilo para o parágrafo na seção hero */
+#hero p {
+    font-size: 1.5rem; /* Tamanho da fonte do texto */
+}
+
+/* Estilo para a seção de pneus */
+#pneus {
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: space-around; /* Espaça os cartões de pneus */
+    padding: 2rem; /* Preenchimento interno da seção de pneus */
+    background-color: white; /* Cor de fundo da seção de pneus */
+}
+
+/* Estilo para os cartões de pneus */
+.pneu-card {
+    background-color: #f9f9f9; /* Cor de fundo dos cartões */
+    padding: 1rem; /* Preenchimento interno dos cartões */
+    text-align: center; /* Centraliza o texto dentro dos cartões */
+    border: 1px solid #ddd; /* Borda leve dos cartões */
+    border-radius: 5px; /* Bordas arredondadas dos cartões */
+    width: 30%; /* Largura dos cartões */
+}
+
+/* Estilo para o título dentro dos cartões de pneus */
+.pneu-card h2 {
+    margin-bottom: 1rem; /* Margem inferior ao título */
+    color: #333; /* Cor do texto do título */
+}
+
+/* Estilo para a imagem dentro dos cartões de pneus */
+.pneu-card img {
+    max-width: 100%; /* Limita a largura da imagem ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 1rem; /* Margem inferior da imagem */
+}
+
+/* Estilo para o preço dentro dos cartões de pneus */
+.pneu-card p.preco {
+    font-size: 1.2rem; /* Tamanho da fonte do preço */
+    font-weight: bold; /* Fonte em negrito para o preço */
+    color: #e60000; /* Cor vermelha para o preço */
+    margin-top: 1rem; /* Margem superior do preço */
+    /* Estilo destacado para o preço: cor vermelha e fonte maior */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: black; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 1rem; /* Preenchimento interno do rodapé */
+    margin-top: 2rem; /* Margem superior do rodapé */
+}

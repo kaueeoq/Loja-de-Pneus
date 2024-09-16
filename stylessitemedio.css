@@ -1,0 +1,144 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilos do logotipo com link */
+.logo-link {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilos da seção Hero */
+#hero {
+    background: url('imagens/teste-gigante.JPEG') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+/* Estilos das seções de descrição e produtos */
+.pneu-card {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.pneu-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.pneu-card h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.pneu-card p {
+    font-size: 1rem;
+}
+
+/* Estilos do preço */
+.preco-card {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e60000;
+}
+
+/* Estilos da seção de compra */
+#comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+.comprar-card {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%; /* Ajusta a largura do cartão */
+    max-width: 400px; /* Limita a largura máxima */
+}
+
+.comprar-btn {
+    background-color: #e60000;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
